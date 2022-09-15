@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "946502765632",
+    "firebase_url": "https://practice-d1bc3-default-rtdb.firebaseio.com",
+    "project_id": "practice-d1bc3",
+    "storage_bucket": "practice-d1bc3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946502765632:android:af693b3f22412dbc1463a5",
+        "android_client_info": {
+          "package_name": "com.example.plutontestmvvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946502765632-395kqbuu1ffghu7uka04kcn3rombtq18.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.plutontestmvvm",
+            "certificate_hash": "3e0b3bf279ae68bc35a1d03cda35264648a5a403"
+          }
+        },
+        {
+          "client_id": "946502765632-05a01hife9vlkbuseofk200po3dj7ipe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABU2AVBau6jOwbQcWKHpfwYLeEtK5gMdo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946502765632-05a01hife9vlkbuseofk200po3dj7ipe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

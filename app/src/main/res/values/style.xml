@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="text_20sp_colorPrimary_hind_medium" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:fontFamily">@font/hind_medium</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <style name="text_20sp_black_hind_regular" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:fontFamily">@font/hind_regular</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="text_20sp_black_hind_medium" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:fontFamily">@font/hind_medium</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="text_14sp_black_hind_regular" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:fontFamily">@font/hind_regular</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="text_20sp_white_hind_medium" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:fontFamily">@font/hind_medium</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

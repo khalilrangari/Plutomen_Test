@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.example.plutontestmvvm.userdetails.UserDetailsViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".userdetails.UserDetailsActivity">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvToolBarTitle"
+            style="@style/text_20sp_colorPrimary_hind_medium"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="?actionBarSize"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:onClick="@{()->viewModel.onBackClick()}"
+            android:text="@string/allUserDetails"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ivBack"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivBack"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_0"
+            android:background="@color/colorPrimary"
+            android:padding="@dimen/dp_16"
+            app:layout_constraintBottom_toBottomOf="@+id/tvToolBarTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_arrow" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvUserList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintTop_toBottomOf="@+id/tvToolBarTitle"
+            tools:itemCount="5"
+            tools:listitem="@layout/item_user_details" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
